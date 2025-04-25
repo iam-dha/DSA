@@ -1,52 +1,9 @@
-# C++ object files
-*.o
-*.obj
+# Ignore Everything
+*
 
-# Compiled binaries and executables
-*.out
-*.exe
-a.out
-main
-
-# macOS specific hidden files
-.DS_Store
-
-# Clang/g++ generated files
-*.dSYM/
-*.log
-
-# CMake build directory (if using CMake)
-build/
-
-# VSCode tasks/build cache
-.vscode/
-
-# Backup/editor files
-*~
-*.swp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-.DS_Store
+# But not .cpp
+!*.cpp
+# Or directories
+!*/
+!.gitignore
+!README.md
